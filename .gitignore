@@ -1,0 +1,23 @@
+# Python virtual environment (أدوات الفكّ)
+.venv/
+
+# APK reverse-engineering artifacts (regenerable)
+extracted/
+
+# Tool logs
+*.log
+
+# ---- Android / Gradle ----
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# APK inputs/outputs
+*.apk
+!app/release/*.apk
