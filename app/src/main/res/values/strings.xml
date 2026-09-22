@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دفتر الحسابات</string>
+
+    <!-- عام -->
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="done">تمت العملية بنجاح</string>
+    <string name="error">فشلت العملية</string>
+    <string name="search">بحث</string>
+    <string name="add">إضافة</string>
+
+    <!-- دخول -->
+    <string name="login_title">دخول</string>
+    <string name="pin_hint">أدخل كلمة السر</string>
+    <string name="login">دخول</string>
+    <string name="login_wrong">كلمة السر غير صحيحة</string>
+
+    <!-- الرئيسية -->
+    <string name="customers">الحسابات</string>
+    <string name="add_customer">إضافة حساب</string>
+    <string name="empty_customers">لا توجد حسابات بعد</string>
+    <string name="all_groups">كل التصنيفات</string>
+    <string name="menu_reports">التقارير</string>
+    <string name="menu_calculator">الآلة الحاسبة</string>
+    <string name="menu_reminders">التنبيهات</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_about">حول البرنامج</string>
+    <string name="menu_search">بحث</string>
+    <string name="actions">خيارات</string>
+    <string name="statement">كشف حساب</string>
+    <string name="edit_customer">تعديل الحساب</string>
+    <string name="delete_customer">حذف الحساب</string>
+    <string name="delete_customer_confirm">سيتم حذف الحساب وكل العمليات المرتبطة به. هل تريد المتابعة؟</string>
+    <string name="delete_confirm">هل تريد الحذف؟</string>
+    <string name="balance">الرصيد</string>
+
+    <!-- حقول الحساب -->
+    <string name="name">الاسم</string>
+    <string name="name_required">أدخل الاسم</string>
+    <string name="phone">الهاتف</string>
+    <string name="group">التصنيف</string>
+    <string name="type">النوع</string>
+    <string name="type_customer">عميل</string>
+    <string name="type_supplier">مورد</string>
+
+    <!-- التصنيفات والعملات الافتراضية -->
+    <string name="group_general">عام</string>
+    <string name="group_customers">عملاء</string>
+    <string name="group_suppliers">موردين</string>
+    <string name="cur_local">محلي</string>
+    <string name="cur_dollar">دولار</string>
+    <string name="cur_saudi">سعودي</string>
+
+    <!-- كشف الحساب -->
+    <string name="credit">له</string>
+    <string name="debit">عليه</string>
+    <string name="net">الرصيد</string>
+    <string name="add_transaction">إضافة مبلغ</string>
+    <string name="no_transactions">لا توجد عمليات</string>
+    <string name="close_account">إغلاق الرصيد</string>
+    <string name="close_confirm">سيتم حذف كل تفاصيل العمليات وفتح رصيد افتتاحي بتاريخ اليوم. هل تريد المتابعة؟</string>
+    <string name="export_csv">تصدير CSV</string>
+    <string name="export_done">تم تصدير الملف إلى مجلد التطبيق</string>
+    <string name="transfer_tag">تحويل</string>
+
+    <!-- العملية -->
+    <string name="txn_type">نوع العملية</string>
+    <string name="for_him">له</string>
+    <string name="on_him">عليه</string>
+    <string name="amount">المبلغ</string>
+    <string name="amount_required">أدخل المبلغ</string>
+    <string name="currency">العملة</string>
+    <string name="date">التاريخ</string>
+    <string name="remarks">التفاصيل</string>
+    <string name="to_account">إلى حساب</string>
+    <string name="none">لا يوجد</string>
+    <string name="add_txn_title">إضافة مبلغ</string>
+    <string name="edit_txn_title">تعديل المبلغ</string>
+    <string name="opening_balance">رصيد افتتاحي</string>
+
+    <!-- التقارير -->
+    <string name="reports_title">التقارير</string>
+    <string name="rep_balances">أرصدة العملاء</string>
+    <string name="rep_late">العملاء المتأخرون</string>
+    <string name="rep_monthly">حسب الشهر</string>
+    <string name="col_customer">الحساب</string>
+    <string name="col_credit">له</string>
+    <string name="col_debit">عليه</string>
+    <string name="col_net">الرصيد</string>
+    <string name="col_last">آخر حركة</string>
+    <string name="col_days">أيام التأخير</string>
+    <string name="col_month">الشهر</string>
+
+    <string-array name="report_types">
+        <item>@string/rep_balances</item>
+        <item>@string/rep_late</item>
+        <item>@string/rep_monthly</item>
+    </string-array>
+
+    <!-- البحث -->
+    <string name="search_title">بحث</string>
+    <string name="search_hint">بحث بالاسم أو التفاصيل أو التاريخ</string>
+    <string name="empty_results">لا توجد نتائج</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="change_pin">تغيير كلمة السر</string>
+    <string name="old_pin">كلمة السر القديمة</string>
+    <string name="new_pin">كلمة السر الجديدة</string>
+    <string name="pin_min">كلمة السر لا تقل عن 4 أرقام</string>
+    <string name="pin_wrong">كلمة السر القديمة غير صحيحة</string>
+    <string name="pin_changed">تم تغيير كلمة السر</string>
+    <string name="backup">نسخ احتياطي CSV</string>
+    <string name="backup_done">تم حفظ النسخة الاحتياطية في مجلد التطبيق</string>
+    <string name="restore">استرجاع من CSV</string>
+    <string name="restore_done">تم الاسترجاع بنجاح</string>
+    <string name="restore_failed">فشل الاسترجاع (الملف غير موجود)</string>
+    <string name="about">حول البرنامج</string>
+
+    <string name="about_text">دفتر الحسابات\n\nتطبيق لإدارة حسابات العملاء والموردين (دفتر ذمم) باللغة العربية.\n\nالميزات:\n• إضافة حسابات وتصنيفات وعملات متعددة\n• عمليات (له / عليه) وتحويلات بين الحسابات\n• كشف حساب كامل مع إغلاق الرصيد\n• تقارير: الأرصدة، المتأخرون، الشهري\n• بحث ونسخ احتياطي CSV\n\nهذه نسخة نظيفة معاد بناؤها من الأصل (قابلة للتطوير).</string>
+
+    <!-- الآلة الحاسبة -->
+    <string name="calculator_title">الآلة الحاسبة</string>
+
+    <!-- التنبيهات -->
+    <string name="reminders_title">التنبيهات</string>
+    <string name="add_reminder">إضافة تنبيه</string>
+    <string name="no_reminders">لا توجد تنبيهات</string>
+    <string name="reminder_date">التاريخ</string>
+    <string name="reminder_time">الوقت</string>
+    <string name="reminder_notes">ملاحظة</string>
+    <string name="reminder_customer">الحساب</string>
+    <string name="reminder_customer_required">اختر الحساب</string>
+</resources>
